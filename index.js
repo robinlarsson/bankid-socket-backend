@@ -11,12 +11,12 @@ io.on('connection', function(socket) {
         console.log('pnr: ' + pnr)
         bankid
             .authenticateAndCollect('127.0.0.1', pnr)
-            .then((res) => {
+            .then((response) => {
                 socket.emit('success')
-                console.log(res.completionData)
+                console.log(response.completionData)
             })
-            .catch((res) => {
-                console.log(res.details)
+            .catch((response) => {
+                socket.emit('failure', { details: response.details })
             })
     })
 })
