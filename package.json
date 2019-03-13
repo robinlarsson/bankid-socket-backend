@@ -1,0 +1,26 @@
+{
+  "name": "bankid-socket-backend",
+  "version": "1.0.0",
+  "description": "Exploration days March 2019 project",
+  "main": "index.js",
+  "dependencies": {
+    "bankid": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinlarsson/bankid-socket-backend.git"
+  },
+  "keywords": [
+    "BankID"
+  ],
+  "author": "Kaustik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinlarsson/bankid-socket-backend/issues"
+  },
+  "homepage": "https://github.com/robinlarsson/bankid-socket-backend#readme"
+}
