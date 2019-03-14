@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bankid": "^1.2.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "http": "0.0.0",
     "njwt": "^1.0.0",
